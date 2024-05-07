@@ -74,20 +74,6 @@ sh ./train.sh
 # 4. Run the code with this in the shell: (Then you will obtain the embeddings of isntance and ontology graph in the current directory)
 cd ./KG_embedding
 python ./KG_embedding/generate_embedding_npy.py
-
-pip install pandas
-
-# -- STS --
-# 1. Get code from https://github.com/princeton-nlp/SimCSE
-# 2. Install SentEval
-git clone https://github.com/princeton-nlp/SimCSE.git
-# find file "SimCSE/SentEval/senteval/sts.py"
-# Modify lines 42 and 43 of the code to read as follows:
-# <42> sent1 = np.array([s.split() for s in sent1], dtype=object)[not_empty_idx]
-# <43> sent2 = np.array([s.split() for s in sent2], dtype=object)[not_empty_idx]
-cd SimCSE/SentEval
-pip install .
-pip install prettytable
 ```
 
 </details>
