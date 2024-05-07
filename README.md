@@ -94,7 +94,7 @@ cd ./Ontology-Driven_Reinforcement_Learning
 sh train.sh
 ```
 ## Q&A
-NOTE: Due to time constraints, the submitted code is code that has not been refactored, so in some cases it may contain some bugs that we didn't catch, but that doesn't affect the results in our paper.
+NOTE: Due to time constraints, the submitted code has not been refactored, so in some cases it may contain some bugs that we didn't catch, but that doesn't affect the results in our paper.
 
 If you have any questions, please submit an [issue](https://github.com/seukgcode/OntoFact/issues/new) or contact ziyus1999\<AT\>gmail.com or ziyus1999\<AT\>seu.edu.cn.
 
